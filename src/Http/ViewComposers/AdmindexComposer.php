@@ -13,13 +13,13 @@ class IrisComposer
     private $admin;
 
     public function __construct(
-        Admindex $admin
+        Admindex $admindex
     ) {
-        $this->admin = $admin;
+        $this->admindex = $admindex;
     }
 
     public function compose(View $view)
     {
-        $view->with('admin', $this->admin);
+        $view->with('admindex', $this->admindex);
     }
 }
