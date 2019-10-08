@@ -65,7 +65,7 @@ class AdmindekServiceProvider extends BaseServiceProvider
         $this->loadTranslationsFrom($translationsPath, 'admindek');
 
         $this->publishes([
-            $translationsPath => base_path('resources/lang/vendor/admindek'),
+            $translationsPath => base_path('resources/lang'),
         ], 'translations');
     }
 
