@@ -9,9 +9,7 @@ class admindekComposer
 {
     private $admindek;
 
-    public function __construct(
-        admindek $admindek
-    ) {
+    public function __construct(Admindek $admindek) {
         $this->admindek = $admindek;
     }
 

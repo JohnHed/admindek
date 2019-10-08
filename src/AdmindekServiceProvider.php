@@ -100,10 +100,10 @@ class AdmindekServiceProvider extends BaseServiceProvider
     private function publishAssets()
     {
         $this->publishes([
-            $this->packagePath('resources/assets/admindek') => public_path('vendor/admindek'),
+            $this->packagePath('resources/admindek') => public_path('vendor/admindek'),
         ], 'assets');
         $this->publishes([
-            $this->packagePath('resources/assets') => public_path('/'),
+            $this->packagePath('resources/assets/') => public_path('/'),
         ], 'assets');
     }
 
