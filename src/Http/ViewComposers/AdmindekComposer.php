@@ -3,9 +3,9 @@
 namespace Dashboards\Admindek\Http\ViewComposers;
 
 use Illuminate\View\View;
-use Dashboards\admindek\Admindek;
+use Dashboards\Admindek\Admindek;
 
-class admindekComposer
+class AdmindekComposer
 {
     private $admindek;
 
