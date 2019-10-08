@@ -46,7 +46,7 @@
             @yield('body')
         </div>
         <!--Scripts JS-->
-
+        <script src="{{asset('js/app.js')}}"></script>
         <script src="{{asset('vendor/admindex/bower_components/jquery/js/jquery.min.js')}}"></script>
         <script src="{{asset('vendor/admindex/bower_components/jquery-ui/js/jquery-ui.min.js')}}"></script>
         <script src="{{asset('vendor/admindex/bower_components/popper.js/js/popper.min.js')}}"></script>

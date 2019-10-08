@@ -14,7 +14,7 @@
 
             @include('admindex::partials.sidebar')
 
-            <div class="pcoded-content">
+            <div class="pcoded-content" id="appBox">
                 @yield('content')
             </div>
 

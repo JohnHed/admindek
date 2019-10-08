@@ -25,3 +25,18 @@ php artisan make:admindex
 php artisan vendor:publish
 
 ```
+4 - Adcionar helper no composer.json na raiz do projeto
+
+```
+ "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+        },
+        ...
+        "files": [
+            ...
+            "app/Helpers/admindex.php"
+        ]
+    },
+
+```
