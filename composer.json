@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Dashboards\\Admindex\\ServiceProvider"
+                "Dashboards\\Admindex\\AdmindexServiceProvider"
             ]
         }
     },
