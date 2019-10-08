@@ -1,6 +1,6 @@
 ###Detalhes do pacote
 
-### Admindex
+### admindek
 
 
 
@@ -9,13 +9,13 @@
 1 - instalar o pacote via composer:
 
 ```
-composer require johnhed/admindex
+composer require johnhed/admindek
 
 ```
 2 - Substituir as views
 
 ```
-php artisan make:admindex
+php artisan make:admindek
 
 ```
 
@@ -35,7 +35,7 @@ php artisan vendor:publish
         ...
         "files": [
             ...
-            "app/Helpers/admindex.php"
+            "app/Helpers/admindek.php"
         ]
     },
 
