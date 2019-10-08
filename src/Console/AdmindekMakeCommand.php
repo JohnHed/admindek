@@ -1,14 +1,14 @@
 <?php
 
-namespace Dashboards\Admindex\Console;
+namespace Dashboards\Admindek\Console;
 
 use Illuminate\Auth\Console\AuthMakeCommand;
 
-class AdmindexMakeCommand extends AuthMakeCommand
+class AdmindekMakeCommand extends AuthMakeCommand
 {
-    protected $signature = 'make:admindex {--views : Only scaffold the authentication views}{--force : Overwrite existing views by default}';
+    protected $signature = 'make:admindek {--views : Only scaffold the authentication views}{--force : Overwrite existing views by default}';
 
-    protected $description = 'Scaffold basic Admindex login and registration views and routes';
+    protected $description = 'Scaffold basic Admindek login and registration views and routes';
 
     protected $irisViews = [
         'auth/login.stub'           => 'auth/login.blade.php',

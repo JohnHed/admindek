@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Admindex',
+    'title' => 'Admindek',
 
     'title_prefix' => '',
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>dex',
+    'logo' => '<b>Admin</b>dek',
 
     'logo_mini' => '<b>AD</b>',
 

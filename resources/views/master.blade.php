@@ -16,23 +16,23 @@
                 @yield('title', 'Bem-vindo(a) ao Admindek')
         </title>
 
-        <link rel="icon" href="{{asset('vendor/admindex/assets/images/favicon.ico')}}" type="image/x-icon">
+        <link rel="icon" href="{{asset('vendor/admindek/assets/images/favicon.ico')}}" type="image/x-icon">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
 
-        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindex/bower_components/bootstrap/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindek/bower_components/bootstrap/css/bootstrap.min.css')}}">
 
-        <link rel="stylesheet" href="{{asset('vendor/admindex/assets/pages/waves/css/waves.min.css')}}" type="text/css" media="all">
+        <link rel="stylesheet" href="{{asset('vendor/admindek/assets/pages/waves/css/waves.min.css')}}" type="text/css" media="all">
 
-        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindex/assets/icon/feather/css/feather.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindek/assets/icon/feather/css/feather.css')}}">
 
-        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindex/assets/css/font-awesome-n.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindek/assets/css/font-awesome-n.min.css')}}">
 
-        <link rel="stylesheet" href="{{asset('vendor/admindex/bower_components/chartist/css/chartist.css')}}" type="text/css" media="all">
+        <link rel="stylesheet" href="{{asset('vendor/admindek/bower_components/chartist/css/chartist.css')}}" type="text/css" media="all">
 
-        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindex/assets/css/style.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindex/assets/css/widget.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindek/assets/css/style.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('vendor/admindek/assets/css/widget.css')}}">
         @yield('master_css')
     </head>
 
@@ -47,29 +47,29 @@
         </div>
         <!--Scripts JS-->
         <script src="{{asset('js/app.js')}}"></script>
-        <script src="{{asset('vendor/admindex/bower_components/jquery/js/jquery.min.js')}}"></script>
-        <script src="{{asset('vendor/admindex/bower_components/jquery-ui/js/jquery-ui.min.js')}}"></script>
-        <script src="{{asset('vendor/admindex/bower_components/popper.js/js/popper.min.js')}}"></script>
-        <script src="{{asset('vendor/admindex/bower_components/bootstrap/js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/bower_components/jquery/js/jquery.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/bower_components/jquery-ui/js/jquery-ui.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/bower_components/popper.js/js/popper.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/bower_components/bootstrap/js/bootstrap.min.js')}}"></script>
 
-        <script src="{{asset('vendor/admindex/assets/pages/waves/js/waves.min.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/waves/js/waves.min.js')}}" ></script>
 
-        <script src="{{asset('vendor/admindex/bower_components/jquery-slimscroll/js/jquery.slimscroll.js')}}"></script>
+        <script src="{{asset('vendor/admindek/bower_components/jquery-slimscroll/js/jquery.slimscroll.js')}}"></script>
 
-        <script src="{{asset('vendor/admindex/assets/pages/chart/float/jquery.flot.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/pages/chart/float/jquery.flot.categories.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/pages/chart/float/curvedLines.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/pages/chart/float/jquery.flot.tooltip.min.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/chart/float/jquery.flot.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/chart/float/jquery.flot.categories.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/chart/float/curvedLines.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/chart/float/jquery.flot.tooltip.min.js')}}" ></script>
 
-        <script src="{{asset('vendor/admindex/bower_components/chartist/js/chartist.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/bower_components/chartist/js/chartist.js')}}" ></script>
 
-        <script src="{{asset('vendor/admindex/assets/pages/widget/amchart/amcharts.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/pages/widget/amchart/serial.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/pages/widget/amchart/light.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/widget/amchart/amcharts.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/widget/amchart/serial.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/widget/amchart/light.js')}}" ></script>
 
-        <script src="{{asset('vendor/admindex/assets/js/pcoded.min.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/js/vertical/vertical-layout.min.js')}}" ></script>
-        <script src="{{asset('vendor/admindex/assets/pages/dashboard/custom-dashboard.min.js')}}"></script>
-        <script src="{{asset('vendor/admindex/assets/js/script.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/assets/js/pcoded.min.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/js/vertical/vertical-layout.min.js')}}" ></script>
+        <script src="{{asset('vendor/admindek/assets/pages/dashboard/custom-dashboard.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/assets/js/script.min.js')}}"></script>
         @yield('master_js')
 </html>

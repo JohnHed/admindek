@@ -1,4 +1,4 @@
-@extends('admindex::master')
+@extends('admindek::master')
 @section('master_css')
 @stack('css')
 @yield('css')
@@ -7,12 +7,12 @@
 <div class="pcoded-overlay-box"></div>
 <div class="pcoded-container navbar-wrapper">
 
-    @include('admindex::partials.navbar')
+    @include('admindek::partials.navbar')
 
     <div class="pcoded-main-container">
         <div class="pcoded-wrapper">
 
-            @include('admindex::partials.sidebar')
+            @include('admindek::partials.sidebar')
 
             <div class="pcoded-content" id="appBox">
                 @yield('content')

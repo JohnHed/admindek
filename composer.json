@@ -1,5 +1,5 @@
 {
-    "name": "johnhed/admindex",
+    "name": "johnhed/admindek",
     "description": "Dashboards admin from laravel",
     "license": "MIT",
     "authors": [
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Dashboards\\Admindex\\": "src/"
+            "Dashboards\\Admindek\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dashboards\\Admindex\\AdmindexServiceProvider"
+                "Dashboards\\Admindek\\AdmindekServiceProvider"
             ]
         }
     },

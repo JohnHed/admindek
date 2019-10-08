@@ -1,1 +1,1 @@
-@extends('admindex::auth.passwords.reset')
+@extends('admindek::auth.passwords.reset')

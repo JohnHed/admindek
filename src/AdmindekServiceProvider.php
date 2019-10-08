@@ -1,17 +1,17 @@
 <?php
 
-namespace Dashboards\Admindex;
+namespace Dashboards\Admindek;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Dashboards\Admindex\Console\AdmindexMakeCommand;
-use Dashboards\Admindex\Http\ViewComposers\AdmindexComposer;
-use Dashboards\Admindex\Helpers\Admindex;
+use Dashboards\Admindek\Console\AdmindekMakeCommand;
+use Dashboards\Admindek\Http\ViewComposers\AdmindekComposer;
+use Dashboards\Admindek\Helpers\Admindek;
 
-class AdmindexServiceProvider extends BaseServiceProvider
+class AdmindekServiceProvider extends BaseServiceProvider
 {
     /**
      * Register services.
@@ -51,10 +51,10 @@ class AdmindexServiceProvider extends BaseServiceProvider
     {
         $viewsPath = $this->packagePath('resources/views');
 
-        $this->loadViewsFrom($viewsPath, 'admindex');
+        $this->loadViewsFrom($viewsPath, 'admindek');
 
         $this->publishes([
-            $viewsPath => base_path('resources/views/vendor/admindex'),
+            $viewsPath => base_path('resources/views/vendor/admindek'),
         ], 'views');
     }
 
@@ -62,22 +62,22 @@ class AdmindexServiceProvider extends BaseServiceProvider
     {
         $translationsPath = $this->packagePath('resources/lang');
 
-        $this->loadTranslationsFrom($translationsPath, 'admindex');
+        $this->loadTranslationsFrom($translationsPath, 'admindek');
 
         $this->publishes([
-            $translationsPath => base_path('resources/lang/vendor/admindex'),
+            $translationsPath => base_path('resources/lang/vendor/admindek'),
         ], 'translations');
     }
 
     private function publishConfig()
     {
-        $configPath = $this->packagePath('config/admindex.php');
+        $configPath = $this->packagePath('config/admindek.php');
 
         $this->publishes([
-            $configPath => config_path('admindex.php'),
+            $configPath => config_path('admindek.php'),
         ], 'config');
 
-        $this->mergeConfigFrom($configPath, 'admindex');
+        $this->mergeConfigFrom($configPath, 'admindek');
     }
 
     private function publishHelpers()
@@ -100,7 +100,7 @@ class AdmindexServiceProvider extends BaseServiceProvider
     private function publishAssets()
     {
         $this->publishes([
-            $this->packagePath('resources/assets/admindex') => public_path('vendor/admindex'),
+            $this->packagePath('resources/assets/admindek') => public_path('vendor/admindek'),
         ], 'assets');
         $this->publishes([
             $this->packagePath('resources/assets') => public_path('/'),
@@ -114,11 +114,11 @@ class AdmindexServiceProvider extends BaseServiceProvider
 
     private function registerCommands()
     {
-        $this->commands(AdmindexMakeCommand::class);
+        $this->commands(AdmindekMakeCommand::class);
     }
 
     private function registerViewComposers(Factory $view)
     {
-        $view->composer('admindex::page', AdmindexComposer::class);
+        $view->composer('admindek::page', AdmindekComposer::class);
     }
 }
