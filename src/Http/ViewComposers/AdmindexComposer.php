@@ -5,7 +5,7 @@ namespace Dashboards\Admindex\Http\ViewComposers;
 use Illuminate\View\View;
 use Dashboards\Admindex\Admindex;
 
-class IrisComposer
+class AdmindexComposer
 {
     /**
      * @var AdminLte

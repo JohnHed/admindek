@@ -100,7 +100,10 @@ class AdmindexServiceProvider extends BaseServiceProvider
     private function publishAssets()
     {
         $this->publishes([
-            $this->packagePath('resources/assets') => public_path('vendor/admindex'),
+            $this->packagePath('resources/assets/admindex') => public_path('vendor/admindex'),
+        ], 'assets');
+        $this->publishes([
+            $this->packagePath('resources/assets') => public_path('/'),
         ], 'assets');
     }
 
