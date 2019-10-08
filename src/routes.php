@@ -1,2 +1,2 @@
 <?php
-Route::resource('/admindex', 'Dashboards\Admindex\DashboardController');
+Route::resource('/admindek', 'Dashboards\Admindek\DashboardController');
