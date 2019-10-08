@@ -29,4 +29,9 @@ class AdmindexMakeCommand extends Command
             );
         }
     }
+
+    public function handle()
+    {
+        //
+    }
 }
