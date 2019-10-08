@@ -2,9 +2,9 @@
 
 namespace Dashboards\Admindex\Console;
 
-use Illuminate\Auth\Console\AuthMakeCommand;
+use Illuminate\Console\Command;
 
-class AdmindexMakeCommand extends AuthMakeCommand
+class AdmindexMakeCommand extends Command
 {
     protected $signature = 'make:admindex {--views : Only scaffold the authentication views}{--force : Overwrite existing views by default}';
 
