@@ -37,11 +37,11 @@
             <ul class="nav-right">
                 <li class="header-notification">
                     <div class="dropdown-primary dropdown">
-                        <div class="dropdown-toggle" data-toggle="dropdown">
+                        <div class="dropdown-toggle notification-header" data-toggle="dropdown">
                             <i class="feather icon-bell"></i>
                             <span class="badge bg-c-red">5</span>
                         </div>
-                        <ul class="show-notification notification-view dropdown-menu"
+                        <ul class="show-notification notification-view dropdown-menu notification-header-menu"
                             data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                             <li>
                                 <h6>Notifications</h6>
@@ -72,13 +72,13 @@
                 </li>
                 <li class="user-profile header-notification">
                     <div class="dropdown-primary dropdown">
-                        <div class="dropdown-toggle" data-toggle="dropdown">
+                        <div class="dropdown-toggle dropdown-profile" data-toggle="dropdown">
                             <img src="{{isset(auth()->user()->image) ? asset("storage/uploads/".auth()->user()->image) : asset('img/default.gif')}}" class="img-radius"
                                 alt="User-Profile-Image">
-                            <span>John Doe</span>
+                            <span>{{auth()->user()->name}}</span>
                             <i class="feather icon-chevron-down"></i>
                         </div>
-                        <ul class="show-notification profile-notification dropdown-menu"
+                        <ul class="show-notification profile-notification dropdown-menu dropdown-menu-profile"
                             data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                             <li>
                                 <a href="#!">
@@ -86,18 +86,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="{{route('profile.edit')}}">
                                     <i class="feather icon-user"></i> Profile
                                 </a>
                             </li>
                             <li>
                                 <a href="email-inbox.html">
                                     <i class="feather icon-mail"></i> My Messages
-                                </a>
-                            </li>
-                            <li>
-                                <a href="auth-lock-screen.html">
-                                    <i class="feather icon-lock"></i> Lock Screen
                                 </a>
                             </li>
                             <li>

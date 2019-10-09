@@ -71,5 +71,7 @@
         <script src="{{asset('vendor/admindek/assets/js/vertical/vertical-layout.min.js')}}" ></script>
         <script src="{{asset('vendor/admindek/assets/pages/dashboard/custom-dashboard.min.js')}}"></script>
         <script src="{{asset('vendor/admindek/assets/js/script.min.js')}}"></script>
+        <script src="{{asset('vendor/admindek/assets/js/jquery.mask.js')}}"></script>
+        <script src="{{asset('vendor/admindek/assets/js/bootstrap-filestyle.js')}}"></script>
         @yield('master_js')
 </html>
