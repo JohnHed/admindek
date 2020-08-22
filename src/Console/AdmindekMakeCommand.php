@@ -2,9 +2,10 @@
 
 namespace Dashboards\Admindek\Console;
 
-use Illuminate\Auth\Console\AuthMakeCommand;
+//use Illuminate\Auth\Console\AuthMakeCommand;
 
-class AdmindekMakeCommand extends AuthMakeCommand
+//class AdmindekMakeCommand extends AuthMakeCommand
+class AdmindekMakeCommand
 {
     protected $signature = 'make:admindek {--views : Only scaffold the authentication views}{--force : Overwrite existing views by default}';
 
