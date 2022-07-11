@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dashboards\\Admindek\\": "src/"
+            "Dashboards\\Admindek\\": "src"
         }
     },
     "extra": {

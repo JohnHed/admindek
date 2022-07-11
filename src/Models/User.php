@@ -1,6 +1,6 @@
 <?php
 
-namespace Dashboards\Admindek;
+namespace Johnhed\Admindek;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
