@@ -1,31 +1,32 @@
-###Detalhes do pacote
+## Package details
+
 
 ### admindek
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
 
 
+### Installation
 
-###Instalação
-
-1 - instalar o pacote via composer:
+1. install the package with composer:
 
 ```
 composer require johnhed/admindek
 
 ```
-2 - Substituir as views
+2. Replace as views
 
 ```
 php artisan make:admindek
 
 ```
 
-3 - Publique os recursos públicos selecionando o comando relativo ao pocote:
+3. Publish the public resources by selecting the package-relative command:
 
 ```
 php artisan vendor:publish
 
 ```
-4 - Adcionar helper no composer.json na raiz do projeto
+4. Add helper in composer.json at project root
 
 ```
  "autoload": {
